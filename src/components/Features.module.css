@@ -1,0 +1,330 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap");
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Lato", sans-serif;
+    /* box-sizing: border-box; */
+}
+
+.features{
+    max-width: 100%;
+    box-sizing: border-box;
+    /* display: flex; */
+    margin: auto;
+}
+
+
+.match{
+    display: flex;
+    flex-direction: row;
+    grid-gap: 20px;
+    padding: 102px 30px 30px 40px;
+    background-color: #e3e1f7c0;
+    /* margin-bottom: 15px;
+    /* margin-top: 15px; */
+    /* padding-bottom: 30px; */
+}
+/* .role{
+    
+} */
+.perfect h4{
+    width: 596px;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 66.16px;
+    height: 152px;
+    width: 565px;
+    padding: 0 100px 125px 0;
+    text-transform: capitalize;
+    color: #070c2c;
+    
+    
+}
+.perfect p{
+    width: 520px;
+    font-size: 20px;
+    line-height: 31.25px;
+    font-weight: 400;
+    height: 62px;
+    left: 80px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    color: #070c2c;
+    
+}
+.match .perfect{
+    padding-top: 50px;
+} 
+.match .perfect .start{
+    font-weight: 700;
+    font-size: 25px;
+    padding-bottom: 0;
+    padding-top: 55px;
+    
+}
+.btn1{
+    padding: 50px 50px 50px 0;
+}
+.getStarted button{
+    background-color: rgb(148, 35, 35);
+    width: 200px;
+    height: 67px;
+    border-radius: 5px;
+}
+.getStarted{
+    padding-right: 15px;
+    
+}
+.learnMore button{
+    background-color: rgb(148, 35, 35);
+    width: 200px;
+    height: 67px;
+    border-radius: 5px;
+    
+}
+.learnMore{
+    padding-left: 15px;
+    
+}
+
+.play{
+   padding-left: 20px;
+}
+.app{
+    padding-left: 20px;
+}
+.ref{
+    /* padding-left: 2px; */
+    display: flex;
+    flex-direction: row;
+    /* padding-top: 130px; */
+}
+.retain{
+    width: 665.03px;
+    height: 601.69px;
+    top: 2.03px;
+    padding-left: 98.2px;
+}
+.jobs{
+    background-color: #f9f9fac0;
+    max-width: 100%;
+    box-sizing: border-box;
+    padding: 150px 30px 30px 40px;
+    
+}
+.immediate{
+    display: flex;
+    flex-direction: row;
+    grid-gap: 20px;
+     padding: 120px 30px 30px 40px;
+     background-color: #faf9fcc0;
+}
+
+
+/* .immediate .fill img{
+    filter: invert(48%) sepia(13%) saturate(3207%)
+    hue-rotate(130deg) brightness(95%) contrast(80%); 
+    
+    
+}  */
+/* .immediate .company{
+    padding-left: 50%;
+} */
+.immediate .company h4{
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 65.28px;
+    height: 65px;
+    /* width: 503px; */
+    padding-bottom: 80px;
+    padding-top: 0;
+    text-transform: capitalize;
+}
+.immediate .company p{
+    /* width: 580px; */
+    height: 201px;
+    top: 80px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    color: #130F26;
+}
+.councel{
+        display: flex;
+        flex-direction: row;
+        grid-gap: 20px;
+        padding: 90px 30px 90px 40px;
+        background-color: #e3e1f7c0;
+
+}
+.councellor{
+    width: 382px;
+    height: 102px;
+    border-radius: 5px;
+    padding: 35px;
+    padding-top: 81px;
+    border-bottom: 2px;
+    border-top: 2px;background-color: #e3e1f7c0;
+
+    
+}
+/* .forth{
+    background-color: #FCAE4940;
+} */
+.interview{
+    background: #0075FF40;
+}
+.prep{
+    background: #FCB04B40;
+}
+.iphone4{
+    width: 282.27px;
+    height: 722.34px;
+    top: 2.03;
+    left: 2.03;
+    padding-top: 65px;
+}
+
+.experience{
+    display: flex;
+    flex-direction: row;
+    grid-gap: 20px;
+     padding: 100px 30px 30px 40px;
+     background-color: #e3e1f7c0;
+}
+.track{
+    display: flex;
+    flex-direction: row;
+    grid-gap: 20px;
+     /* padding: 20px 20px 20px 20px; */
+     /* background-color: #e3e1f7c0; */
+     margin: auto;
+
+}
+.convince{
+    padding: 100px 30px 30px 40px;
+    background-color: #e3e1f7c0;
+}
+.perfect{
+    width: 700px;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 65.28px;
+}
+.record{
+    width: 282px;
+    height: 102px;
+    border-radius: 5px;
+    padding: 35px;
+    padding-top: 81px;
+    border-bottom: 2px;
+    border-top: 2px;
+    /* background-color: #e3e1f7c0; */
+}
+.address{
+    display: flex;
+    flex-direction: row;
+    grid-gap: 20px;
+    padding: 100px 30px 30px 40px;
+    background-color: #e3e1f7c0;
+}
+.today{
+    padding-left: 40px;
+    background-color: #e3e1f7c0;
+}
+.address .today p{
+    width: 242px;
+    height: 90px;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 65.28px; 
+}
+.address .today img{
+    width: 520px;
+    height: 430px;
+}
+.talk{
+    padding-left: 130px;
+    display: flex;
+    flex-direction: column;
+    line-height: 110px;
+    padding-top: 88px;
+    
+    
+}
+.talk .details{
+    border: solid transparent;
+    height: 80px;
+    width: 520px; 
+    border-radius: 5px;
+    
+}
+.talk .help{
+    border: solid transparent;
+    width: 520px;
+    height: 280px;
+    border-radius: 5px;
+    
+}
+.talk .send{
+    background: #4E60D3;
+    height: 70px;
+    width: 520px;
+    border-radius: 5px;
+    
+}
+
+@media screen  and (max-width: 1235px) {
+    .features{
+        
+        background-color: red;
+        display: flex;
+    }
+    .perfect h4{
+        width: 276px;
+        font-size: 30px;
+        font-weight: 400;
+        line-height: 44.16px;
+        height: 152px;
+        padding: 0 50px 80px 0;
+    } 
+    .match{
+        background-color: red;
+        max-width: 100px;
+    }
+    .perfect p{
+        width: 320px;  
+    }
+        
+    /* .match .perfect .start{
+        font-weight: 700;
+        font-size: 20px;
+        padding-top: 120px;
+        
+    } */
+    .play{
+        padding-left: 20px;
+     }
+     .app{
+         padding-left: 20px;
+     }
+     .iphone{
+         /* padding-left: 2px; */
+         display: flex;
+         flex-direction: row;
+     }
+     .iphone1{
+         width: 165.03px;
+         height: 531.69px;
+         top: 2.03px;
+         left: 25.2px;
+     }
+     .iphone2{
+         width: 182.27px;
+         height: 522.34px;
+         top: 2.03;
+         left: 2.03;
+         padding-top: 140px;
+     }
+     
+}
